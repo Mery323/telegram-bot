@@ -1,0 +1,3 @@
+
+# Ignoring .env file for security reasons
+.env
