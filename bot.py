@@ -1,3 +1,12 @@
+import os
+
+bot_token = os.getenv("BOT_TOKEN")
+courier_id = os.getenv("COURIER_ID")
+
+# Логування значень змінних для перевірки
+print(f"BOT_TOKEN: {bot_token}")
+print(f"COURIER_ID: {courier_id}")
+
 from dotenv import load_dotenv  # Імпортуємо load_dotenv
 import os  # Імпортуємо os для доступу до змінних середовища
 
